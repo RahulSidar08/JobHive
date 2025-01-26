@@ -19,6 +19,7 @@ Backend: Node.js and Express.js for server-side logic.
 Database: MongoDB for efficient data storage and management.
 # Other Tools: 
 Integration of third-party APIs for enhanced functionality.
+<hr>
 This project showcases the seamless integration of the MERN stack to create a scalable, secure, and user-friendly job portal.
 
 Feel free to explore, contribute, or customize it further!
