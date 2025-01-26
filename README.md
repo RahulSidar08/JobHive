@@ -12,8 +12,6 @@ Job Search: Job seekers can browse and filter job opportunities based on various
 Profile Management: Both employers and job seekers can manage and update their profiles.
 <hr>
 Real-Time Notifications: Instant alerts for job applications and updates.
-<hr>
-Responsive Design: Optimized for both desktop and mobile devices.
 
 # Technology Stack:
 Frontend: React.js for a dynamic and interactive user interface.
