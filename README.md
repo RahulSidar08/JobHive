@@ -14,7 +14,7 @@ Profile Management: Both employers and job seekers can manage and update their p
 Real-Time Notifications: Instant alerts for job applications and updates.
 
 # Technology Stack:
-Frontend: HTML, CSS , REACT , TAILWIND CSS .
+Frontend: HTML, TAILWIND CSS, REACT ,  .
 <hr>
 Backend: Node , Express.
 Database: MongoDB.
