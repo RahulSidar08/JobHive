@@ -14,11 +14,10 @@ Profile Management: Both employers and job seekers can manage and update their p
 Real-Time Notifications: Instant alerts for job applications and updates.
 
 # Technology Stack:
-Frontend: React.js for a dynamic and interactive user interface.
-Backend: Node.js and Express.js for server-side logic.
-Database: MongoDB for efficient data storage and management.
-# Other Tools: 
-Integration of third-party APIs for enhanced functionality.
+Frontend: HTML, TAILWIND CSS, REACT ,  .
+<hr>
+Backend: Node , Express.
+Database: MongoDB.
 <hr>
 This project showcases the seamless integration of the MERN stack to create a scalable, secure, and user-friendly job portal.
 
