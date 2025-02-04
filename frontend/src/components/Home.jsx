@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-blue-500 p-10 border ">
+      <div className="p-10 border ">
         <HeroSection />
         <CategoryCarousel />
       </div>
