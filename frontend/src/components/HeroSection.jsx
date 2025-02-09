@@ -20,9 +20,9 @@ const HeroSection = () => {
   return (
     <>
       <div className="text-center">
-        <div className="absolute top-12 ">
-          {/* <img src={left} alt="" height="20px" width="400px" /> */}
-        </div>
+        {/* <div className="absolute top-[300px] left-[10px] ">
+          <img src={left} alt="" height="20px" width="300px" />
+        </div> */}
         <div className="flex flex-col gap-8 my-10">
           <motion.h1
             initial={{
