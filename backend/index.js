@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobhive-2.onrender.com',
+    origin:'https://jobhive-3.onrender.com',
     credentials:true
 }
 
