@@ -19,8 +19,8 @@ const AdminJobs = () => {
   }, [input]);
   return (
     <div>
-      {/* <Navbar />  */}
-      <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Navbar /> 
+      <br /> <br /><br /><br /><br />
       <div className='max-w-6xl mx-auto mt[200px]'>
         <div className='flex items-center justify-between my-5'>
           <Input
