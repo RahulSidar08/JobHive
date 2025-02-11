@@ -32,10 +32,10 @@ const Navbar = () => {
     }
   };
   return (
-    <div className={`bg-blue-800 shadow-lg p-2 w-full border-b-5 fixed top-0`}>
+    <div className={`bg-white text-black shadow-lg p-2 w-full border-b-5 fixed top-0`}>
       <div className="flex items-center justify-between mx-auto max-w-7xl h-16">
         <div>
-          <h1 className="text-2xl font-bold text-white">
+          <h1 className="text-2xl font-bold text-black">
             Job<span className="text-[#F83002]">Hive</span>
           </h1>
         </div>
@@ -52,13 +52,13 @@ const Navbar = () => {
               </>
             ) : (
               <>
-                <li className="text-2xl text-white">
+                <li className="text-2xl">
                   <Link to="/">Home</Link>
                 </li>
-                <li className="text-2xl text-white">
+                <li className="text-2xl">
                   <Link to="/jobs">Jobs</Link>
                 </li>
-                <li className="text-2xl text-white">
+                <li className="text-2xl">
                   <Link to="/browse">Browse</Link>
                 </li>
               </>
