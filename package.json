@@ -9,7 +9,7 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "nodemon backend/index.js"
   },
-  "author": "",
+  "author": "Rahul Sidar",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

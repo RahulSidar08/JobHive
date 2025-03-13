@@ -35,8 +35,8 @@ const Navbar = () => {
     <div className={`bg-white text-black shadow-lg p-2 w-full border-b-5 fixed top-0`}>
       <div className="flex items-center justify-between mx-auto max-w-7xl h-16">
         <div>
-          <h1 className="text-2xl font-bold text-black">
-            Job<span className="text-[#F83002]">Hive</span>
+          <h1 className="text-4xl font-bold text-green-500">
+            JobHive
           </h1>
         </div>
         <div className="flex items-center gap-12">

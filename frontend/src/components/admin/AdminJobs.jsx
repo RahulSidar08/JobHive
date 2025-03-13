@@ -18,6 +18,7 @@ const AdminJobs = () => {
     dispatch(setSearchJobByText(input));
   }, [input]);
   return (
+    
     <div>
       <Navbar /> 
       <br /> <br /><br /><br /><br />

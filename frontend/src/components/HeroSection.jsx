@@ -25,20 +25,17 @@ const HeroSection = () => {
         </div> */}
         <div className="flex flex-col gap-8 my-10">
           <motion.h1
-            initial={{
-              y: 0,
-            }}
-            animate={{
-              y: [0,10,10,0],
-            }}
+            initial={{ y: 0 }}
+            animate={{ y: [0, 20, 20, 0] }} // Subtle bounce
             transition={{
-              duration: 2,
-              repeat: Infinity,
+              duration: 1.5, // Slow and smooth
+              ease: "easeInOut", // Smooth acceleration and deceleration
+              repeat: 0, // No repetition
             }}
             className="text-5xl font-bold mt-10"
           >
             Your Dream Job Awaits! <br />
-            <span className="text-[#e7f346]">
+            <span className="text-green-500">
               Search. Apply. Get hired—fast & easy!
             </span>
           </motion.h1>
@@ -57,7 +54,7 @@ const HeroSection = () => {
             />
             <Button
               onClick={searchJobHandler}
-              className="rounded-r-full bg-[#6A38C2]"
+              className="rounded-r-full bg-[#38c26b]"
             >
               <Search className="h-5 w-5" />
             </Button>
