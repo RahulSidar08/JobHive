@@ -28,7 +28,7 @@ const CategoryCarousel = () => {
                     {
                         category.map((cat, index) => (
                             <CarouselItem key={index} className="md:basis-1/2 lg-basis-1/3">
-                                <Button onClick={()=>searchJobHandler(cat)} variant="outline" className="rounded-full">{cat}</Button>
+                                <Button onClick={()=>searchJobHandler(cat)} variant="outline" className="rounded-full bg-green-400 hover:bg-green-500">{cat}</Button>
                             </CarouselItem>
                         ))
                     }
