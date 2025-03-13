@@ -19,6 +19,17 @@ Frontend: HTML, TAILWIND CSS, REACT ,  .
 Backend: Node , Express.
 Database: MongoDB.
 <hr>
+
+## Deployment
+
+The Project is deployed on Render and can be accessed at:
+
+```bash
+ https://jobhive-3.onrender.com/
+```
+
+<hr>
+
 This project showcases the seamless integration of the MERN stack to create a scalable, secure, and user-friendly job portal.
 
 Feel free to explore, contribute, or customize it further!
