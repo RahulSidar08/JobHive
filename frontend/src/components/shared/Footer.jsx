@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h2 className="text-xl font-bold">Job Hive</h2>
-            <p className="text-sm">© 2025 Your Company. All rights reserved.</p>
+            <h2 className="text-xl font-bold text-green-500">JobHive</h2>
+            <p className="text-sm">© 2025 <span className='text-green-500'>JobHive</span>. All rights reserved.</p>
           </div>
           
           <div className="flex space-x-4 mt-4 md:mt-0">
