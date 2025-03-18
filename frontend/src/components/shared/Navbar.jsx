@@ -32,14 +32,14 @@ const Navbar = () => {
     }
   };
   return (
-    <div className={`bg-white text-black shadow-lg p-2 w-full border-b-5 fixed top-0`}>
-      <div className="flex items-center justify-between mx-auto max-w-7xl h-16">
+    <div className={`bg-white text-black shadow-lg p-2 w-full border-b-5 fixed top-0 max-sm:w-full max-sm:flex`}>
+      <div className="flex items-center justify-between mx-auto max-w-7xl h-16 max-sm:flex-col max-sm:w-full">
         <div>
           <h1 className="text-4xl font-bold text-green-500">
             JobHive
           </h1>
         </div>
-        <div className="flex items-center gap-12">
+        <div className="flex items-center gap-12 max-sm:flex-col max-sm:gap-1">
           <ul className="flex font-medium items-center gap-5">
             {user && user.role === "recruiter" ? (
               <>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </li>
               </>
             ) : (
-              <>
+              <div className="flex gap-4 max-sm:justify-center max-sm:space-x-2 max-sm:gap-1">
                 <li className="text-2xl">
                   <Link to="/">Home</Link>
                 </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <li className="text-2xl">
                   <Link to="/browse">Browse</Link>
                 </li>
-              </>
+              </div>
             )}
           </ul>
           {!user ? (
