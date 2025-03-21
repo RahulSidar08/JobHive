@@ -30,10 +30,10 @@ const CategoryCarousel = () => {
 
   return (
     <div className="w-full flex flex-col items-center my-10">
-      <Carousel className="w-full max-w-2xl px-4">
-        <CarouselContent className="flex flex-wrap justify-center gap-3">
+      <Carousel className="w-full max-w-2xl px-4 overflow-hidden">
+        <CarouselContent className="flex gap-3 transition-transform duration-500 ease-in-out">
           {category.map((cat, index) => (
-            <CarouselItem key={index} className="basis-auto">
+            <CarouselItem key={index} className="shrink-0 w-full sm:w-auto">
               <Button
                 onClick={() => searchJobHandler(cat)}
                 variant="outline"
