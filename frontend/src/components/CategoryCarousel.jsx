@@ -1,11 +1,12 @@
 import React from "react";
+// import { Card, CardContent } from "./ui/carousel"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "./ui/carousel";
+} from "./ui/carousel"
 import { Button } from "./ui/button";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -15,6 +16,9 @@ const category = [
   "Frontend Developer",
   "Backend Developer",
   "Data Science",
+  "Data Science",
+  "Data Science",
+  "Data Science",
   "Graphic Designer",
   "FullStack Developer",
 ];
@@ -22,33 +26,31 @@ const category = [
 const CategoryCarousel = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+
   const searchJobHandler = (query) => {
     dispatch(setSearchedQuery(query));
     navigate("/browse");
   };
 
   return (
-    <div>
-      <Carousel className="w-full max-w-xl mx-auto my-20 px-4">
-        <CarouselContent className="flex flex-wrap justify-center gap-4">
-          {category.map((cat, index) => (
-            <CarouselItem
-              key={index}
-              className="basis-1/1 sm:basis-1/2 md:basis-1/3 lg:basis-1/4"
-            >
+    <div className="w-full flex flex-col items-center my-10">
+      <Carousel className="w-full max-w-xl">
+      <CarouselContent className="-ml-1">
+      {category.map((cat, index) => (
+            <CarouselItem key={index} className="basis-auto">
               <Button
                 onClick={() => searchJobHandler(cat)}
-                variant="outline"
-                className="rounded-full bg-green-400 hover:bg-green-500 px-4 py-2 text-sm sm:text-base"
+                variant="outline-none"
+                className="rounded-full bg-green-400 hover:bg-green-500 px-6 py-2 text-sm sm:text-base text-black"
               >
                 {cat}
               </Button>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
     </div>
   );
 };
