@@ -28,7 +28,7 @@ const Jobs = () => {
 
   return (
     <div>
-      <Navbar />
+
       <div className="max-w-7xl mx-auto mt-5 px-4">
         <div className="flex flex-col md:flex-row gap-5">
           {/* Filter Section */}
@@ -38,7 +38,7 @@ const Jobs = () => {
 
           {/* Job Listings */}
           {filterJobs.length <= 0 ? (
-            <span className="text-center w-full">Job not found</span>
+            <span className="text-center w-full mt-20"> <h1 className="text-4xl">Job Not Found</h1> </span>
           ) : (
             <div className="flex-1 h-auto md:h-[88vh] overflow-y-auto pb-5">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
