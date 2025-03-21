@@ -36,7 +36,7 @@ const FilterCard = () => {
             <h1 className="font-bold text-lg">Filter Jobs</h1>
             <hr className="mt-3" />
             
-            <div className="max-h-[50vh] overflow-y-auto">
+            <div className="max-h-[80vh]">
                 <RadioGroup value={selectedValue} onValueChange={changeHandler}>
                     {filterData.map((data, index) => (
                         <div key={index} className="mt-4">
