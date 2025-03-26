@@ -12,12 +12,15 @@ JobHive is a modern job portal web application developed using the MERN stack (M
 - Real-Time Notifications: Instant alerts for job applications and updates.
 
 
-# Technology Stack:
-Frontend: HTML, TAILWIND CSS, REACT ,  .
-<hr>
-Backend: Node , Express.
-Database: MongoDB.
-<hr>
+
+## Tech Stack
+
+**Frontend:**  HTML, TAILWIND CSS, REACT
+
+**Backend:**  Node , Express. 
+
+**Database:** MongoDB
+
 
 ## Deployment
 
