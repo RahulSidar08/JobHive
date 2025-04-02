@@ -21,6 +21,8 @@ JobHive is a modern job portal web application developed using the MERN stack (M
 
 **Database:** MongoDB
 
+**File Storage:** Cloudinary
+
 
 ## Deployment
 
